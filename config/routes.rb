@@ -2,10 +2,10 @@ Rails.application.routes.draw do
   devise_for :users
   root "pages#index"
 
-  get "home" => "pages#home"
+  get "/home" => "pages#home"
 
-  get "profile" => "pages#profile"
+  get "/user/:id" => "pages#profile"
 
-  get "explore" => "pages#explore"
+  get "/explore" => "pages#explore"
 
 end
