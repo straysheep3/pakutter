@@ -38,7 +38,7 @@
             <% end %> <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <% if user_signed_in? %>
-              <li><a href="#">Profile</a></li>
+              <li><a href="/user/<%= current_user.username %>">Profile</a></li>
               <li role="separator" class="divider"></li>
               <li><a href="#">Help</a></li>
               <li role="separator" class="divider"></li>
