@@ -11,7 +11,73 @@
  * file per style scope.
  *
  *= require_tree .
+ *= require font-awesome
  *= require_self
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
+ @import "font-awesome";
+
+body {
+  background-color: rgba(212,216,212,.25)
+}
+
+.rounded-img {
+  border-radius: 10%;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  padding-top: 10px;
+  color: #326ada !important;
+}
+
+.post-form-panel {
+  margin-bottom: -23px;
+}
+
+.post-panel {
+  margin-top: -25px;
+}
+
+.post-title {
+  margin-left: 15px;
+}
+
+.post-content {
+  margin-left: 15px;
+}
+
+.post-links {
+
+}
+
+.post-owner {
+  color: black;
+  font-weight: bold;
+}
+
+.post-creation {
+  opacity: .75;
+}
+
+.g-links {
+  opacity: .4;
+  font-size: 120%;
+  margin-right: 75px;
+}
+
+.profile-body {
+  padding: 0;
+}
+
+.user-img {
+  background-color: white;
+  padding: 3px;
+  
+}
